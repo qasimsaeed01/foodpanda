@@ -1,0 +1,885 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100vw;
+  height: 10vh;
+  background-color: #ffffff;
+  padding: 0px 70px 0px 70px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-sign button {
+  padding: 9px 16px;
+  font-size: 16px;
+
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px;
+}
+
+.log-in {
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 9px;
+  transition: all;
+  transition-duration: 100ms;
+}
+.log-in:hover {
+  padding: 12px 18px;
+  background-color: lightgrey;
+}
+
+.sign-up {
+  border: none;
+  background-color: #e62c7d;
+  border-radius: 9px;
+  color: white;
+  transition: all;
+  transition-duration: 100ms;
+}
+.sign-up:hover {
+  padding: 12px 18px;
+  background-color: #c21760;
+}
+
+.lang {
+  border: none;
+  background-color: #ffffff;
+  transition: all;
+  transition-duration: 500ms;
+}
+.lang:hover {
+  background-color: lightgrey;
+}
+
+.icon1 {
+  border: none;
+  border-radius: 50px;
+  background-color: #ffffff;
+}
+.icon1:hover {
+  background-color: lightgrey;
+  border-radius: 50%;
+}
+
+/* hero page */
+
+.hero-page {
+  width: 100vw;
+  height: 84vh;
+  background-color: #f7f7f7;
+  /* padding: ; */
+  overflow: hidden;
+}
+.srch-page h1 {
+  text-align: center;
+  font-size: 40px;
+  color: #333333;
+  font-family: pp system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  position: absolute;
+  top: 45%;
+}
+
+.srch-page {
+  width: 50vw;
+  height: 58vh;
+  padding-left: 5vw;
+}
+
+.bar-loc {
+  background-color: white;
+  width: 50vw;
+  height: 10vh;
+  position: absolute;
+  top: 56%;
+  padding-left: 20px;
+}
+
+.bar-loc input {
+  width: 80%;
+  padding: 20px 15px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  background-color: white;
+  font-family: sans-serif;
+}
+
+.bar-loc button {
+  border: none;
+  background-color: #e62c7d;
+  border-radius: 9px;
+  color: white;
+  padding: 16px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px;
+  transition: all;
+  transition-duration: 100ms;
+}
+
+.bar-loc button:hover {
+  background-color: #c21760;
+  padding: 18px 18px;
+}
+
+.loction button {
+  border: none;
+  background-color: #ffffff;
+  border-radius: 50px;
+  color: #333333;
+  padding: 8px 8px;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px;
+  transition: all;
+  transition-duration: 500ms;
+  position: absolute;
+  left: 28pc;
+  bottom: 4px;
+}
+.loction button:hover {
+  color: #e62c7d;
+  background-color: white;
+  padding: 8px 8px;
+}
+
+.hero-pic img {
+  width: 100%;
+  position: relative;
+  left: 18rem;
+  /* height: 80vh; */
+  /* position: absolute;
+  left: 60vw;
+  bottom: 55px; */
+  overflow: hidden;
+}
+
+.hero-page {
+  display: flex;
+}
+
+      /* 2nd page */
+
+  .home-2 {
+    width: 100vw;
+    height: 100vh;
+    background-color: #ffffff;
+
+
+  }
+
+
+
+.title-1 h2 { 
+  font-size: 35px;
+  color:black;
+  font-family:  system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    padding: 4vw 3vw 1vw 3vw;
+
+}
+
+.main-pic {
+  width: 100vw;
+  height: 55vh;
+  background-image: url(./home-vendor-pk.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  
+
+
+}
+
+.detail {
+  width: 45vw;
+  height: 48vh;
+background-color: white;
+padding: 24px 24px 24px 24px;
+position: relative;
+
+left: 5vw;
+bottom: 20vh;
+border-radius: 12px;
+box-shadow: 5px 4px 5px lightgray;
+
+
+}
+
+.detail h2 {
+  font-size: 24px;
+  color: #333333;
+  font-family:  system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    padding-bottom: 2vw;
+   
+ }
+
+ .detail p { 
+
+  font-size: 18px;
+
+  font-family:  system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    padding: 0 24px;
+
+
+ }
+
+ .detail button {
+  border: none;
+  background-color: #e62c7d;
+  border-radius: 9px;
+  color: white;
+  padding: 16px 16px;
+  font-size: 16px;
+  cursor: pointer;
+
+  margin: 10px;
+  transition: all;
+  transition-duration: 100ms;
+
+
+ }
+ .detail button:hover {
+  background-color: #c21760;
+  padding: 18px 18px;
+ }
+
+ /* card wala page */
+
+ .home-3 {
+  width: 100vw;
+  height: 170vh;
+  background-color: #FFFFFF;
+  padding-top: 10vh;
+  padding: 10vh;
+  
+
+ }
+.title-2{
+
+font-size: 24px;
+padding-bottom:3vw ;
+
+
+
+}
+
+ 
+
+ .container {
+  display: flex;
+  gap: 2%;
+  flex-wrap: wrap;
+}
+
+.item:nth-child(1),
+.item:nth-child(2),
+.item:nth-child(3),
+.item:nth-child(4),
+.item:nth-child(5),
+.item:nth-child(6),
+.item:nth-child(7),
+.item:nth-child(8),
+.item:nth-child(9),
+.item:nth-child(10),
+.item:nth-child(11),
+.item:nth-child(12),
+.item:nth-child(13),
+.item:nth-child(14),
+.item:nth-child(15),
+.item:nth-child(16) {
+ 
+  background-color: #ffffff;
+  width: 300px;
+  height:220px;
+  padding: 8px 8px 8px 8px;
+  margin: 10px;
+  border-radius: 15px;
+}
+.container h2 {
+  background: white;
+  width: 135px;
+  height: 30px;
+  border-radius: 10px;
+  padding-left: 7px;
+  position: relative;
+  top: 25vh;
+
+  
+
+
+}
+.item:nth-child(1) {
+  background-image: url(./Islamabad.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  transition: all;
+  transition-duration: 300ms;
+  
+
+}
+
+.item:nth-child(1):hover {
+  background-position: 100% ;
+  
+  
+
+
+}
+
+.item:nth-child(2) {
+  background-image: url(./Karachi.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  transition: all;
+  transition-duration: 300ms;
+  
+
+}
+
+.item:nth-child(2):hover {
+  background-position: 100% ;
+  
+  
+
+
+}
+
+.item:nth-child(3) {
+  background-image: url(./Lahore.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  transition: all;
+  transition-duration: 300ms;
+  
+
+}
+
+.item:nth-child(3):hover {
+  background-position: 100% ;
+  
+
+}
+
+.item:nth-child(4) {
+  background-image: url(./Faisalabad.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  transition: all;
+  transition-duration: 300ms;
+  
+
+}
+
+.item:nth-child(4):hover {
+  background-position: 100% ;
+  
+  
+}
+
+.item:nth-child(5) {
+  background-image: url(./Rawalpindi.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  transition: all;
+  transition-duration: 300ms;
+  
+
+}
+
+.item:nth-child(5):hover {
+  background-position: 100% ;
+  
+  
+
+
+}
+
+.item:nth-child(6) {
+  background-image: url(./city-tile-Abottabad.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  transition: all;
+  transition-duration: 300ms;
+  
+
+}
+
+.item:nth-child(6):hover {
+  background-position: 100% ;
+  
+  
+
+
+}
+
+.item:nth-child(7) {
+  background-image: url(./city-tile-Bahawalpur.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  transition: all;
+  transition-duration: 300ms;
+  
+
+}
+
+.item:nth-child(7):hover {
+  background-position: 100% ;
+  
+  
+
+
+}
+
+.item:nth-child(8) {
+  background-image: url(./asset\ 9.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  transition: all;
+  transition-duration: 300ms;
+  
+
+}
+
+.item:nth-child(8):hover {
+  background-position: 100% ;
+  
+  
+}
+
+.item:nth-child(9) {
+  background-image: url(./asset\ 10.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  transition: all;
+  transition-duration: 300ms;
+  
+
+}
+
+.item:nth-child(9):hover {
+  background-position: 100% ;
+  
+  
+
+
+}
+
+.item:nth-child(10) {
+  background-image: url(./asset\ 11.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  transition: all;
+  transition-duration: 300ms;
+  
+
+}
+
+.item:nth-child(10):hover {
+  background-position: 100% ;
+  
+  
+
+
+}
+
+.item:nth-child(11) {
+  background-image: url(./asset\ 12.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  transition: all;
+  transition-duration: 300ms;
+  
+
+}
+
+.item:nth-child(11):hover {
+  background-position: 100% ;
+  
+  
+
+
+}
+
+.item:nth-child(12) {
+  background-image: url(./asset\ 13.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  transition: all;
+  transition-duration: 300ms;
+  
+
+}
+
+.item:nth-child(12):hover {
+  background-position: 100% ;
+  
+  
+
+
+}
+
+.item:nth-child(13) {
+  background-image: url(./asset\ 14.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  transition: all;
+  transition-duration: 300ms;
+  
+
+}
+
+.item:nth-child(13):hover {
+  background-position: 100% ;
+  
+  
+
+
+}
+
+.item:nth-child(14) {
+  background-image: url(./asset\ 15.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  transition: all;
+  transition-duration: 300ms;
+  
+
+}
+
+.item:nth-child(14):hover {
+  background-position: 100% ;
+  
+  
+
+
+}
+
+.item:nth-child(15) {
+  background-image: url(./asset\ 16.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  transition: all;
+  transition-duration: 300ms;
+  
+
+}
+
+.item:nth-child(15):hover {
+  background-position: 100% ;
+  
+  
+
+
+}
+
+.item:nth-child(16) {
+  background-image: url(./asset\ 17.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  transition: all;
+  transition-duration: 300ms;
+  
+
+}
+
+.item:nth-child(16):hover {
+  background-position: 100% ;
+  
+
+}
+
+.home-4 {
+  width: 100vw;
+  height: 80vh;
+  background-color: white;
+  padding: 10vh;
+  
+
+}
+.all-in {
+  
+}
+
+.main-4 {
+  width: 88vw;
+  height: 50vh;
+  background-color: #e62c7d;
+  display: flex;
+  justify-content: space-between;
+  padding: 48px 0px 48px 32px;
+  border-radius: 13px;
+
+  
+ 
+}
+
+
+
+.text-1 h2  {
+  font-size: 24px;
+  font-weight: 800;
+  color: #ffffff;
+  padding-bottom: 20px;
+ 
+}
+
+.text-1 p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-left: 20vh;
+  position: relative;
+  bottom: 12vh;
+   
+}
+.ph-pic {
+  width: 656px;
+  height: 521px;
+  
+}
+
+.ph-pic img {
+  width: 100%;
+  position: relative;
+  bottom: 8vw;
+
+
+
+}
+/* home 5 */
+
+.main-pic-2 {
+  width: 100vw;
+  height: 55vh;
+  background-image: url(./home-corporate-pk.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+
+}
+
+
+/* home 6 */
+
+.home-6 {
+  width: 100vw;
+  height: auto;
+  background-color:white;
+  padding: 10vh;
+  overflow: hidden;
+  
+}
+
+.hd-1 h2 {
+  font-size: 36px;
+  font-weight: 800;
+  color: #333333;
+  padding-bottom: 20px;
+
+}
+
+.hd-1 p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.hd-1 {
+  border-bottom: 1px solid gray ;
+  padding-bottom: 10px;
+}
+
+.hd-2 {
+  width: 100vw;
+  height: auto;
+
+}
+
+.hd-2 h2 {
+  font-size: 28px;
+  font-weight: 800;
+  color: #333333;
+  padding-bottom: 20px;
+
+}
+
+.hd-2 p {
+  font-size: 16px;
+  font-weight: 400;
+  padding: 20px 0px;
+}
+
+.hd-2 h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #333333;
+  padding-bottom: 10px;
+  font-weight: bolder;
+  
+
+}
+
+.footer {
+  width: 100vw;
+  height: 120vh;
+  
+
+
+}
+
+.contry {
+
+  display: flex;
+  gap: 30px;
+
+  
+  font-size: 18px;
+  font-weight: 600;
+  padding: 20px;
+  margin-left: 20vh;
+  overflow: hidden;
+
+}
+
+.contry a {
+  text-decoration: none;
+  color: #333333;
+  transition: color 0.3s ease;
+  
+}
+
+.contry a:hover {
+  border-bottom: 2px solid black;
+  
+}
+
+.pres {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  overflow: hidden;
+
+  
+  font-size: 18px;
+  font-weight: 600;
+  padding: 20px;
+  margin-left: 50vh
+
+}
+
+.pres a {
+  text-decoration: none;
+  color: #333333;
+  transition: color 0.3s ease;
+
+}
+
+
+  
+
+.last-1 {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  
+  font-size: 18px;
+  font-weight: 600;
+  padding: 20px;
+  margin-left: 120vh;
+  position:relative;
+  bottom: 30vw;
+  overflow: hidden;
+  
+
+}
+
+.last-1 a {
+  
+  text-decoration: none;
+  color: #333333;
+  transition: color 0.3s ease;
+}
+
+.pics {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 25vw;
+
+
+}
+
+.food {
+  position: relative;
+  right:30vw;
+}
+
+.social {
+  position: relative;
+  left: 30vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
